@@ -1,0 +1,7 @@
+.main {
+  @apply h-full w-full bg-gray-950;
+}
+
+.test {
+  @apply text-2xl text-indigo-700;
+}
