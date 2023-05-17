@@ -6,6 +6,9 @@ const handler = NextAuth({
     GithubProvider({
       clientId: process.env.GITHUB_ID!,
       clientSecret: process.env.GITHUB_SECRET!,
+      token: `https://github.com/login/oauth/access_token${
+        process.env.NODE_ENV === 'development' ? '?redirect_uri=http://localhost:3000/api/auth/callback/github' : ''
+      }`,
     }),
   ],
 });
