@@ -1,5 +1,5 @@
 .main {
-  @apply h-full w-full bg-gray-950;
+  @apply h-full w-full bg-neutral-950;
 }
 
 .test {
