@@ -1,8 +1,8 @@
 import {Poppins} from 'next/font/google';
 
-import '@/app/globals.css';
-import NavMenu from '@/app/navMenu/NavMenu';
-import AuthProvider from '@/app/util/AuthProvider';
+import '@app/globals.css';
+import NavMenu from '@app/navMenu/NavMenu';
+import AuthProvider from '@app/util/AuthProvider';
 
 import SideBar from './SideBar';
 import styles from './layout.module.css';

@@ -11,9 +11,9 @@
     "next/(.*)$",
     "^react(-dom(.)*)?$",
     "<THIRD_PARTY_MODULES>",
-    "^@core/(.*)$",
-    "^@server/(.*)$",
-    "^@ui/(.*)$",
+    "^@app/(.*)$",
+    "^@components/(.*)$",
+    "^@public/(.*)$",
     "^[./]"
   ],
   "importOrderSeparation": true,
