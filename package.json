@@ -14,9 +14,9 @@
     "semver": "^7.5.3"
   },
   "dependencies": {
-    "@types/node": "20.11.16",
-    "@types/react": "18.2.52",
-    "@types/react-dom": "18.2.18",
+    "@types/node": "20.11.17",
+    "@types/react": "18.2.55",
+    "@types/react-dom": "18.2.19",
     "eslint": "8.56.0",
     "eslint-config-next": "14.1.0",
     "next": "14.1.0",
@@ -29,7 +29,7 @@
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
     "autoprefixer": "^10.4.17",
     "eslint-config-prettier": "^9.1.0",
-    "postcss": "^8.4.33",
+    "postcss": "^8.4.35",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.11",
     "tailwindcss": "^3.4.1"
